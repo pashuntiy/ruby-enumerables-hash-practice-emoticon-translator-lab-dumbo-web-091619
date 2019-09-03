@@ -25,4 +25,5 @@ end
 def get_english_meaning(source, emoticons)
   output = load_library(source)["get_meaning"][emoticons]
   output ? output : "Sorry"
+  
 end
