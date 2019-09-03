@@ -15,11 +15,10 @@ def load_library(source)
 hash
 end
 
-
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(source, emoticons)
+  output = load_library(source)["get_emoticon"][emoticons]
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(source, emoticons)
+  output = load_library(source)[get_meaning][emoticons]
 end
