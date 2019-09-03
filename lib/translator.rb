@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(source, emoticons)
   output = load_library(source)["get_emoticon"][emoticons]
-  if output == nil
+  if output == true
     puts "Sorry"
   end
 end
